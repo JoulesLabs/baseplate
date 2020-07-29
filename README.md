@@ -9,7 +9,7 @@
 - Socialite integration
 - Tailwindcss + Font Awesome 5
 
-## the frontend
+## Frontend
 The frontend is based on [vue baseplate](https://github.com/thearyanahmed/baseplate) structure.
 The frontend's rest api consumer is based on [api-router](https://github.com/thearyanahmed/api-router) and can be called via `this.router()`
 
