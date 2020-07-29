@@ -1,15 +1,4 @@
-# Laravel-Vue SPA 
-
-<a href="https://travis-ci.org/cretueusebiu/laravel-vue-spa"><img src="https://travis-ci.org/cretueusebiu/laravel-vue-spa.svg?branch=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/cretueusebiu/laravel-vue-spa"><img src="https://poser.pugx.org/cretueusebiu/laravel-vue-spa/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/cretueusebiu/laravel-vue-spa"><img src="https://poser.pugx.org/cretueusebiu/laravel-vue-spa/v/stable.svg" alt="Latest Stable Version"></a>
-
-> A Laravel-Vue SPA starter project template.
-
-<p align="center">
-<img src="https://i.imgur.com/NHFTsGt.png">
-</p>
-
+# baseplate
 ## Features
 
 - Laravel 7
@@ -18,7 +7,7 @@
 - Login, register, email verification and password reset
 - Authentication with JWT
 - Socialite integration
-- Bootstrap 4 + Font Awesome 5
+- Tailwindcss + Font Awesome 5
 
 ## Installation
 
@@ -48,7 +37,7 @@ npm run production
 
 ## Socialite
 
-This project comes with GitHub as an example for [Laravel Socialite](https://laravel.com/docs/5.8/socialite).
+This project comes with GitHub as an example for [Laravel Socialite](https://laravel.com/docs/7.x/socialite).
 
 To enable the provider create a new GitHub application and use `https://example.com/api/oauth/github/callback` as the Authorization callback URL.
 
