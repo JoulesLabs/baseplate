@@ -2,20 +2,26 @@
 ## Features
 
 - Laravel 7
-- Vue + VueRouter + Vuex + VueI18n + ESlint
+- Vue + VueRouter + Vuex 
 - Pages with dynamic import and custom layouts
 - Login, register, email verification and password reset
 - Authentication with JWT
 - Socialite integration
 - Tailwindcss + Font Awesome 5
 
+## the frontend
+The frontend is based on [vue baseplate](https://github.com/thearyanahmed/baseplate) structure.
+The frontend's rest api consumer is based on [api-router](https://github.com/thearyanahmed/api-router) and can be called via `this.router()`
+
 ## Installation
 
-- `composer create-project --prefer-dist cretueusebiu/laravel-vue-spa`
+- `git clone https://github.com/JoulesLabs/baseplate.git`
+- `cd baseplate`
 - Edit `.env` and set your database connection details
 - (When installed via git clone or download, run `php artisan key:generate` and `php artisan jwt:secret`)
 - `php artisan migrate`
 - `npm install`
+
 
 ## Usage
 
