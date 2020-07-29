@@ -1,0 +1,47 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$base-color : "#ebebeb";
+$border-sm : 0.375rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+.write-with-quick-sand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-colour {
+    background-color: $base-color;
+}
+
+.faded-text {
+  color: #8c8c8c;
+}
+
+.app-colour {
+    @apply bg-green-400;
+}
+
+.app-colour-hover {
+    @apply bg-green-600;
+}
+
+.app-colour-secondary {
+    @apply bg-green-600;
+}
+
+.apply-filter-button {
+    @apply p-2 ;
+    background-color: #ebebeb; // variable not working
+    border: 1px solid white;
+    border-radius: $border-sm;
+}
+
+.clear-filter-button {
+    @apply p-2 bg-transparent rounded;
+    border: 1px solid #ebebeb; // variable not working
+    border-radius: $border-sm;
+}
