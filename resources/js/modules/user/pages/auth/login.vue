@@ -46,9 +46,6 @@
 </template>
 
 <script>
-
-    import BACKGROUND_IMAGE from '~/assets/images/backgrounds/auth/login.png'
-
     export default {
         layout: 'auth',
 
